@@ -160,7 +160,7 @@ p{
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  margin: 0;
+  margin-top: 20px;
   
 }
 .section-subtitle:nth-of-type(2n){
@@ -229,13 +229,13 @@ p{
   text-align: center;
 }
 .feynman__subtitle{
-  margin: 0;
   display: flex;
   justify-content: center;
   z-index: 2;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  margin-top: 70px;
 }
 .feynman__subtitle:nth-of-type(2n){
   margin-top: 70px;
@@ -280,10 +280,11 @@ p{
 .section-title_theme_dark{
   width:100%;
   z-index: 1;
+  
 }
 .section-subtitle_theme_dark{
-  margin: 0;
   z-index: 1;
+  margin-top: 20px;
 }
 .table_theme_dark{
   display: flex;
