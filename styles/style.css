@@ -229,11 +229,9 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  margin-top: 70px;
+  margin: 70px 0px 0px 0px;
 }
-.feynman__subtitle:nth-child(2n){
-  margin: 70px 0px 0px 0px;;
-}
+
 .feynman__link{
   top: 50%;
   right: 48px;
