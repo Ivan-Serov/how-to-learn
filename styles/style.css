@@ -57,7 +57,7 @@
   font-size: 18px;
   font-weight: normal;
   line-height: 25px;
-  z-index: 1;
+  z-index: 2;
   bottom: 30px;
   margin: 0;
 }
@@ -110,7 +110,7 @@
 .two-columns__brief{
   width: 175px;
   display: flex;
-
+  margin: 0;
   font-size: 18px;
   font-weight: normal;
   line-height: 1.2;
@@ -231,8 +231,8 @@
   font-weight: normal;
   margin-top: 70px;
 }
-.feynman__subtitle:nth-of-type(2n){
-  margin-top: 70px;
+.feynman__subtitle:nth-child(2n){
+  margin: 70px 0px 0px 0px;;
 }
 .feynman__link{
   top: 50%;
@@ -336,13 +336,15 @@
   justify-content: space-between;
 
 }
+.footer__column{
+  display: flex;
+  
+}
 
 .footer__column_content_copyright{
-  display: flex;
   flex-basis: 711px;
   flex-direction: column;
   justify-content: space-between;
-  width: auto;
   
 }
 .logo_place_footer{
@@ -359,16 +361,12 @@
   font-weight: normal;
 }
 .footer__column_content_info{
-  display: flex;
   flex-direction: column;
-  width: auto;
-  justify-content: unset;
+  
 }
 .footer__column_content_social{
-  display: flex;
   flex-direction: column;
-  width: auto;
-  justify-content: unset;
+  
 }
 .footer__column-heading{
   margin: 0px;
