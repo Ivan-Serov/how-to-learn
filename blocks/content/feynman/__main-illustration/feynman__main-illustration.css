@@ -1,0 +1,12 @@
+.feynman__main-illustration{
+  background-image: url(../../../../images/feynman.png);
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 637px;
+  width: 867px;
+  justify-content: flex-end;
+  z-index: 0;
+  background-size: 100%;
+}
